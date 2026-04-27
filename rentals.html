@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Browse available rental homes managed by River Nest Properties in Smyrna, Marietta, and the greater Atlanta metro area." />
+<title>Available Rentals — River Nest Properties</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath fill='%237a8b6f' d='M18 4 L31 14 L31 31 L22 31 L22 22 L14 22 L14 31 L5 31 L5 14 Z'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 36 36" fill="none">
+        <path d="M18 4 L31 14 L31 31 L22 31 L22 22 L14 22 L14 31 L5 31 L5 14 Z" fill="#7a8b6f"/>
+        <path d="M18 4 L31 14 L31 17 L18 7 L5 17 L5 14 Z" fill="#5a6b51"/>
+      </svg>
+      <span class="logo-text">River Nest<small>Properties</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="rentals.html" class="active">Available Rentals</a>
+      <a href="contact.html">Contact</a>
+      <a href="portal.html" class="nav-portal">Tenant Portal</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Available Rentals</div>
+    <span class="eyebrow">Currently Available</span>
+    <h1>Properties ready for their next tenant.</h1>
+    <p>A selection of single-family homes, duplexes, and apartments throughout the Smyrna, Marietta, &amp; Vinings area. Click any listing to learn more or get in touch.</p>
+  </div>
+</section>
+
+<section style="padding-top: 2.5rem;">
+  <div class="container">
+
+    <div class="filter-bar">
+      <div class="filter-count" id="listings-count"><strong>Loading…</strong></div>
+      <button class="filter-chip active">All</button>
+      <button class="filter-chip">1–2 Bed</button>
+      <button class="filter-chip">3+ Bed</button>
+      <button class="filter-chip">Pet-Friendly</button>
+    </div>
+
+    <div class="listings-grid" id="all-listings">
+      <!-- Listings auto-populated from listings.js -->
+    </div>
+
+    <div style="text-align:center; padding: 4rem 0 0;">
+      <p style="margin-bottom: 1.5rem; color: var(--ink-soft);">Don't see what you're looking for? New listings are added regularly.</p>
+      <a href="contact.html" class="btn btn-secondary">Get notified of new listings <span class="arrow">→</span></a>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <svg class="logo-mark" viewBox="0 0 36 36" fill="none">
+            <path d="M18 4 L31 14 L31 31 L22 31 L22 22 L14 22 L14 31 L5 31 L5 14 Z" fill="#d6dccd"/>
+            <path d="M18 4 L31 14 L31 17 L18 7 L5 17 L5 14 Z" fill="#7a8b6f"/>
+          </svg>
+          <span class="logo-text">River Nest<small>Properties</small></span>
+        </a>
+        <p>A small, attentive residential rental management company serving Smyrna and the Atlanta metro area.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rentals.html">Available Rentals</a></li>
+          <li><a href="portal.html">Tenant Portal</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <address>
+          1502 Wedmore Ct SE<br>
+          Smyrna, GA 30080
+          <a href="tel:+16784866364">(678) 486-6364</a>
+          <a href="mailto:info@rivernestproperties.com">info@rivernestproperties.com</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 River Nest Properties. All rights reserved.</div>
+      <div class="footer-bottom-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="listings.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
