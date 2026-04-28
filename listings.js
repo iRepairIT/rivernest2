@@ -100,7 +100,7 @@ const LISTINGS = [
     sqft: "1,280",
     available: "June 15",
     status: "Coming Soon",
-    featured: true,
+    featured: false,
     images: [
       { url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=700&q=80", alt: "Brick ranch home" },
       { url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=700&q=80", alt: "Renovated bathroom" },
