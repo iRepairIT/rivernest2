@@ -75,13 +75,13 @@ const LISTINGS = [
   },
 
   {
-    price: "$2,450",
-    address: "1148 Concord Mill Walk",
-    cityStateZip: "Smyrna, GA 30082",
-    beds: "3",
+    price: "$1,950",
+    address: "1438 S Diane Ct SE",
+    cityStateZip: "Smyrna, GA 30080",
+    beds: "2",
     baths: "2.5",
-    sqft: "1,920",
-    available: "June 1",
+    sqft: "1,320",
+    available: "NOW",
     status: "Available",
     featured: true,
     images: [
