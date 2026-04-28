@@ -63,7 +63,7 @@ const LISTINGS = [
     beds: "2",
     baths: "1",
     sqft: "800",
-    available: "Now",
+    available: "NOW",
     status: "Available",
     featured: true,
     images: [
